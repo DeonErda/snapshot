@@ -78,7 +78,7 @@ export default {
       loading: false,
       loaded: false,
       proposals: {},
-      selectedState: 'All'
+      selectedState: 'all'
     };
   },
   computed: {

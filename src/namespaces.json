@@ -95,7 +95,7 @@
     "key": "curve",
     "symbol": "veCRV",
     "name": "Curve",
-    "defaultView": "core",
+    "defaultView": "all",
     "address": "0x5f3b5DfEb7B28CDbD7FAba78963EE202a494e2A2",
     "token": "0x5f3b5DfEb7B28CDbD7FAba78963EE202a494e2A2",
     "core": [
