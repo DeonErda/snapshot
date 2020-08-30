@@ -43,7 +43,7 @@ export default {
     };
   },
   created() {
-    const domainName = window.location.hostname;
+    const domainName = 'signal.curve.fi';
     if (domains[domainName])
       this.$router.push({
         name: 'proposals',
