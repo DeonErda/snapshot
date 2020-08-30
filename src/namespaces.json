@@ -114,7 +114,9 @@
       "0x0Ac51a4E170bF73e7ac54283E61C9717EAc2A241"
     ],
     "min": 1,
-    "invalid": [],
+    "invalid": [
+      "QmWDjtQUwtN6t6qjaSudCeEUg6CR9ow47BxEwyoavxwhd9"
+    ],
     "visible": false
   },
   "rarible": {
