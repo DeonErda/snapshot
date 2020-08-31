@@ -115,7 +115,9 @@
     ],
     "min": 1,
     "invalid": [
-      "QmWDjtQUwtN6t6qjaSudCeEUg6CR9ow47BxEwyoavxwhd9"
+      "QmWDjtQUwtN6t6qjaSudCeEUg6CR9ow47BxEwyoavxwhd9",
+      "QmY2XuWZroCKbRxjVLi7AXRgS2J9vix8WnNMijbVZ1oLxc",
+      "Qmb1uxwagS2aWoqL2SYMENJ3LJ8ykoYTWQtnXL2AqAQeUG"
     ],
     "visible": false
   },
