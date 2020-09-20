@@ -91,7 +91,7 @@ export default {
         : { token: this.key, verified: [] };
     },
     totalProposals() {
-      return Object.keys(this.proposals).length;
+      return Object.keys(this.proposals || {}).length;
     },
     proposalsWithFilter() {
       const ts = (Date.now() / 1e3).toFixed();

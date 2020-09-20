@@ -95,7 +95,7 @@ const actions = {
         let balances = await dispatch('multicall', {
           name: 'TestToken',
           calls: Object.values(proposals).map((proposal: any) => {
-            return [proposal.msg.token, 'balanceOf', [proposal.address]];
+            return [proposal.msg.token, 'balanceOfAt', [proposal.address, +proposal.msg.payload.snapshot]];
           })
         });
         balances = balances.map(balance =>
